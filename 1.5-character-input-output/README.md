@@ -49,4 +49,21 @@ Type characters on many lines and enter `ctrl + D` to terminate. It should print
     third line
 =>  3
 ```
+
+## Word counting
+#### Compile
+```
+cc -o word-counting.out word-counting.c
+```
+
+#### Run
+Type characters on many lines and enter `ctrl + D` to terminate. It should print the number of lines typed, number of words followed by number of characters.
+```
+./line-counting.out
+
+    first line
+    another line
+    third line
+=>  3 6 25
+```
 ---
