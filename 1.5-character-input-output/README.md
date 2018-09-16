@@ -32,4 +32,21 @@ Type characters and enter `ctrl + D` to terminate. It should print the number of
     123456
 =>  6
 ```
+
+## Line counting
+#### Compile
+```
+cc -o line-counting.out line-counting.c
+```
+
+#### Run
+Type characters on many lines and enter `ctrl + D` to terminate. It should print the number of lines typed.
+```
+./line-counting.out
+
+    first line
+    another line
+    third line
+=>  3
+```
 ---
